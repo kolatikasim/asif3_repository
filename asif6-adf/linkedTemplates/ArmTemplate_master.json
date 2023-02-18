@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "asif6-adf"
 		},
+		"demo3_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'demo3'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"demo3_connectionString": {
+						"value": "[parameters('demo3_connectionString')]"
 					}
 				}
 			},
