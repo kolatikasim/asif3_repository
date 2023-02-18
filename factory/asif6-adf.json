@@ -1,0 +1,9 @@
+{
+	"name": "asif6-adf",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd958265-4920-4cca-9af2-0b658d05f045",
+		"tenantId": "0f187933-f480-4b71-adf4-7e8ba49d5493"
+	}
+}
